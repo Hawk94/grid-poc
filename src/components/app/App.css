@@ -1,0 +1,13 @@
+.App {
+  display: grid;
+  grid-template-rows: 60px auto;
+  grid-template-columns: 100%;
+  text-align: center;
+}
+
+.App > .container {
+  display: inline-grid;
+  grid-template-rows: 180px auto;
+  grid-template-columns: auto 960px auto;
+  background-color: rgb(23,33,47);
+}
